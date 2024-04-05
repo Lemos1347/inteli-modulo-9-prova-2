@@ -59,4 +59,9 @@ Foram criados 2 testes para esse projeto:
 Ambos podem ser localizados no arquivo [`internal/kafka/kafka_test.go`](internal/kafka/kafka_test.go).
 
 Para o teste de integridade, foi publicado no topico `prova_test` uma mensagem que é bytes de um json de um dado de um sensor e logo em seguida é verificado se os dados em memoria são iguais aos dados recebidos do kafka.  
-Para o teste de persistência, foi publicado no tópico `prova_test_presistence` uma mensagem e posteriormente 2 consumers com group_id diferentes foram criados, possibilitando consumir a mesma mensagem 2 vezes. Após isso, foi verificado se a mensagem recebida em ambos os consumers eram iguais.
+Para o teste de persistência, foi publicado no tópico `prova_test_presistence` uma mensagem e posteriormente 2 consumers com group_id diferentes foram criados, possibilitando consumir a mesma mensagem 2 vezes. Após isso, foi verificado se a mensagem recebida em ambos os consumers eram iguais.  
+
+Caso queira rodar os testes, execute o seguinte comando na root desse projeto (ele passará por todos os testes de forma verbosa):
+```bash
+go test -v -cover ./...
+```
