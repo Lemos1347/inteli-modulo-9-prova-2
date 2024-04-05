@@ -18,8 +18,7 @@ Esse repositório contém as seguintes pastas:
 
 ## Execução
 
-[!IMPORTANT]
-
+> [!IMPORTANT]  
 > Para executar essa solução é necessário ter o docker, docker-compose e _golang_ instalados na máquina. _*Caso deseje rodar localmente, rode os comandos abaixo na root desse projeto!*_
 
 ### Como rodar
