@@ -49,6 +49,9 @@ go run cmd/consumer/main.go
 
 Pronto! Agora no terminal onde você rodou o _consumer_ você verá os dados sendo consumidos e salvos no banco de dados, e no terminal onde você rodou o _producer_ você verá os dados sendo produzidos e enviados ao kafka.
 
+### Funcionamento
+<img width="1680" alt="Captura de Tela 2024-04-05 às 11 09 28" src="https://github.com/Lemos1347/inteli-modulo-9-prova-2/assets/99190347/49ace736-801b-44bc-83ae-a4ebbb5c340d">
+
 ## Testes
 
 Foram criados 2 testes para esse projeto:
@@ -65,3 +68,5 @@ Caso queira rodar os testes, execute o seguinte comando na root desse projeto (e
 ```bash
 go test -v -cover ./...
 ```
+
+![Uploading Captura de Tela 2024-04-05 às 11.10.07.png…]()
